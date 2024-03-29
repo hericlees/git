@@ -1,0 +1,56 @@
+# Executar esses códigos no terminal do VSCODE e antes criar o repositório no site do github
+
+# Precisamos iniciar um repositório Git em nosso projeto local. Para isso, executamos o comando
+
+git init
+
+# Definindo [branch (linha de desenvolvimento isolada que diverge do fluxo principal do código-fonte, geralmente representando um conjunto específico de alterações
+ou uma nova funcionalidade)]
+
+git branch -M main
+
+# Conectar o repositório que criamos no GitHub com o nosso repositório local em nosso computador. ( é necessário dar um nome ao nosso repositório remoto,
+o nome dado nesse caso é origin)
+
+git remote add origin https://github.com/hericlees/git
+
+# Verificar o nome do repositório local 
+
+git remote
+
+# Ao rodarmos o comando git status, poderemos visualizar os arquivos que foram modificados ou adicionados em nosso projeto e ainda não foram incluídos no GitHub
+- eles serão destacados em vermelho.
+
+git status
+
+# Para especificar quais arquivos desejamos adicionar
+
+git add ( + nome do arquivo especifico que deseja adicionar)
+
+# Para adicionarmos o projeto ou aqruivo todo 
+
+git add .
+
+
+# criaremos um commit para registrar as mudanças realizadas. 
+Utilizamos o comando git commit, incluindo a opção "-m" para adicionar uma mensagem sobre as alterações feitas no projeto.
+
+git commit -m "Adiciona projeto inicial" ( O comando de commit registra a alteração realizada.)
+
+# Visualizar o registro das alterações feitas em nosso projeto.
+
+git log
+
+# Enviando para o GitHub
+
+git push origin main
+
+# Clonar um repositório ( A clonagem de um repositório baixa uma cópia completa de todos os dados dele que o GitHub.com tem no momento,
+incluindo todas as versões de cada arquivo e pasta do projeto. É possível enviar suas alterações ao repositório remoto no GitHub.com 
+ou extrair as alterações de outras pessoas no GitHub.com. )
+
+gh repo clone https://github.com/PATH-TO/REPOSITORY (url do git que deseja baixar)
+
+# Trazer alterações feitas no github
+
+git pull origin main
