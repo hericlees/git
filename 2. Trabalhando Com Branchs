@@ -18,3 +18,14 @@ git merge testes
 
 git push origin testes --delete
 
+# Adicionando tags
+
+git tag -a v1.4 -m “Versão 1.4” (Nesse comando, com a tag -a você define a versão, e com a tag -m você especifica uma mensagem para essa tag.)
+
+# Enviando as tags para o servidor remoto
+
+git push origin v1.4
+
+# Para listar todas as tags do seu repositório
+
+git tag
