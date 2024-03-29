@@ -6,4 +6,6 @@ git branch
 
 git checkout -b testes (testes= nome da branch)
 
+# Altera de branch
 
+git checkout
