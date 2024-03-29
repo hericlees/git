@@ -1,0 +1,9 @@
+# Esse comando mostra para nós quais são todas as ramificações presentes no nosso projeto
+
+git branch
+
+# Cria uma nova branch para adicionar essa parte do projeto
+
+git checkout -b testes (testes= nome da branch)
+
+
