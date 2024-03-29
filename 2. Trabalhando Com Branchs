@@ -5,6 +5,9 @@ git branch
 # Cria uma nova branch e altera de branch
 git checkout -b testes (testes= nome da branch)
 
-# Altera de branch
+# Alterar de branch
 
-git checkout
+git checkout + (o nome da branch. ex.: main)
+ex.: git checkout main
+
+
