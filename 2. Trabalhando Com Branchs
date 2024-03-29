@@ -10,7 +10,7 @@ git checkout -b testes (testes= nome da branch)
 git checkout + (o nome da branch. ex.: main)
 ex.: git checkout main
 
-# Mesclando branchs
+# Mesclando branchs ( primeiro alternar para a branch main e depois integrar as alterações da branch)
 
 git merge testes
 
