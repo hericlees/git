@@ -2,8 +2,7 @@
 
 git branch
 
-# Cria uma nova branch para adicionar essa parte do projeto
-
+# Cria uma nova branch e altera de branch
 git checkout -b testes (testes= nome da branch)
 
 # Altera de branch
