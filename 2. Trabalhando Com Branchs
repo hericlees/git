@@ -10,4 +10,11 @@ git checkout -b testes (testes= nome da branch)
 git checkout + (o nome da branch. ex.: main)
 ex.: git checkout main
 
+# Mesclando branchs
+
+git merge testes
+
+# Excluindo uma branch
+
+git push origin testes --delete
 
